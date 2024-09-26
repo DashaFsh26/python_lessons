@@ -1,6 +1,7 @@
-def sum(a, b):
-    result = a + b 
-    return result
+def dev(a, b):
+    return a/b 
+ 
+def sub(a,b):
+    return a-b 
 
-final_result = sum(5, 3)
-print(final_result)
+print(dev(10,2) *sub(10,2))

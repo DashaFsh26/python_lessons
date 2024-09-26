@@ -51,4 +51,3 @@ print(element)
 a = [1, 2, [3, 5], 11]
 
 print(type(a))
-print(type(3))

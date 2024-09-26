@@ -1,5 +1,5 @@
-def do_nothing_and_return(name):
-    return name
+def com(a, b):
+    return a>b
 
-result = do_nothing_and_return("Dasha")
-print(result)
+print(com(4, 2))
+
