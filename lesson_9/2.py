@@ -1,12 +1,13 @@
-users = {"oleg": "oleglox", "root": "rootrott89", "jdjfdh54": "hrhfjjhfh"}
+users = {
+    "oleg": "oleglox", 
+    "root": "rootrott89", 
+    "jdjfdh54": "hrhfjjhfh",
+    "erevan": "erevan2345",
+}
 
+print(users["erevan"])
+print(users["oleg"])
 
-def login(username, password):
-    if username in users:
-        if users[username] == password:
-            return False
-    else:
-        return False
+users = [["oleg", "oleglox"], ["root", "rootrott89"], ["jdjfdh54", "hrhfjjhfh"]]
 
-print(login("oleg", "oleglox"))
-print(login("sdfsdfsdfdfs", "sdfsfs"))
+print(users[2][0])
